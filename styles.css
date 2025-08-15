@@ -25,14 +25,14 @@ body {
     font-size: 24px;
 }
 
-/* Estiliza los botones de la calculadora */
+/* Estiliza los botones de la calculadora, organizados en una cuadrícula */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-/* Estiliza los botones */
+/* Estiliza los botones individuales de la calculadora */
 button {
     padding: 15px;
     font-size: 18px;
