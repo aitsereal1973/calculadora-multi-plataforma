@@ -8,28 +8,28 @@
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <input type="text" id="display" disabled aria-labelledby="display-label">
         <div class="buttons">
             <!-- Botón para borrar la pantalla -->
-            <button onclick="clearDisplay()">C</button>
+            <button onclick="clearDisplay()" aria-label="Borrar pantalla">C</button>
             <!-- Botones numéricos -->
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('/')">/</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')">*</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('-')">-</button>
-            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('7')" aria-label="Agregar 7">7</button>
+            <button onclick="appendToDisplay('8')" aria-label="Agregar 8">8</button>
+            <button onclick="appendToDisplay('9')" aria-label="Agregar 9">9</button>
+            <button onclick="appendToDisplay('/')" aria-label="Agregar división">/</button>
+            <button onclick="appendToDisplay('4')" aria-label="Agregar 4">4</button>
+            <button onclick="appendToDisplay('5')" aria-label="Agregar 5">5</button>
+            <button onclick="appendToDisplay('6')" aria-label="Agregar 6">6</button>
+            <button onclick="appendToDisplay('*')" aria-label="Agregar multiplicación">*</button>
+            <button onclick="appendToDisplay('1')" aria-label="Agregar 1">1</button>
+            <button onclick="appendToDisplay('2')" aria-label="Agregar 2">2</button>
+            <button onclick="appendToDisplay('3')" aria-label="Agregar 3">3</button>
+            <button onclick="appendToDisplay('-')" aria-label="Agregar resta">-</button>
+            <button onclick="appendToDisplay('0')" aria-label="Agregar 0">0</button>
             <!-- Botón para calcular el resultado -->
-            <button onclick="calculateResult()">=</button>
+            <button onclick="calculateResult()" aria-label="Calcular resultado">=</button>
             <!-- Botón para sumar -->
-            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('+')" aria-label="Agregar suma">+</button>
         </div>
     </div>
     <script src="script.js"></script>
