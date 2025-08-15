@@ -1,3 +1,4 @@
+/* Estiliza el cuerpo de la página */
 body {
     display: flex;
     justify-content: center;
@@ -7,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Estiliza el contenedor de la calculadora */
 .calculator {
     background-color: #fff;
     padding: 20px;
@@ -14,6 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estiliza la pantalla de la calculadora */
 #display {
     width: 100%;
     height: 40px;
@@ -22,12 +25,14 @@ body {
     font-size: 24px;
 }
 
+/* Estiliza los botones de la calculadora */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
+/* Estiliza los botones */
 button {
     padding: 15px;
     font-size: 18px;
@@ -39,6 +44,7 @@ button {
     transition: background-color 0.3s;
 }
 
+/* Cambia el color de fondo del botón al pasar el cursor */
 button:hover {
     background-color: #0056b3;
 }
